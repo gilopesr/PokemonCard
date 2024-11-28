@@ -10,7 +10,7 @@ async function Buscarpokemon() {
 
     if (api.ok){
         let resposta = await api.json();
-        document.getElementById('txt-name').innerHTML = resposta.name;
+        document.getElementById('txt-name').innerHTML = resposta.name; //name é a resposta da api
         document.getElementById('txt-id').innerHTML = resposta.id;
         document.getElementById('img-perfil').src = resposta.sprites.back_default;
 
