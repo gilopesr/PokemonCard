@@ -1,4 +1,4 @@
-# 🃏 PokemonCard: Pesquise e Visualize Seus Pokémon Favoritos!
+# 🃏 Pokemon Card Info
 
 [![Status do Projeto](https://img.shields.io/badge/Status-Concluído-brightgreen)](link_para_deploy_se_houver)
 [![Tecnologias](https://img.shields.io/badge/Tecnologias-HTML%20%7C%20CSS%20%7C%20JavaScript-blue)](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
@@ -30,6 +30,9 @@ Aqui está uma prévia de como o site se parece:
 * **[PokeAPI](https://pokeapi.co/):** API RESTful para obter dados de Pokémon
 
 ## 💡 Como Usar
+Acesse o site https://gilopesr.github.io/PokemonCard/ e digite um numero para fazer a busca!
+
+OU
 
 1.  **Clone o repositório:**
     ```bash
@@ -42,7 +45,3 @@ Aqui está uma prévia de como o site se parece:
 3.  **Abra o arquivo `index.html` no seu navegador:**
     Você pode simplesmente dar um clique duplo no arquivo `index.html` ou arrastá-lo para a janela do seu navegador.
 
-
-## 📄 Licença
-
-Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
