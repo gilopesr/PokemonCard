@@ -1,28 +1,42 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
 <head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Pokemon</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='index.css'>
-    <script defer src='index.js'></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>PokemonCard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="index.css">
+    <script defer src="index.js"></script>
 </head>
 <body>
+
+    <div class="container">
     
-    <div class="card">
-            <div class="foto">
-                <img src="perfil.png" id="img-perfil">
-            
-                <div class="txt-perfil">
-                    Nome: <span id="txt-name"></span><br>
-                    ID: <span id="txt-id"></span><br>
-                </div>
-            </div>
+    <div class="busca">
+        <p id="texto-numero">Digite um número:</p>
+        <div class="busca-input-area">
+            <input type="text" class="input" id="id-pokemon" placeholder="Ex: 15">
+            <input type="button" class="button" value="Buscar" onclick="Buscarpokemon()">
+        </div>
     </div>
-    <p id="texto-numero">Digite um número:</p>
-    <input type="text" class='input' id="id-pokemon" name="id-pokemon"/>
-    <input type="button" class="button" value="Search" onclick="Buscarpokemon()"/>
+
+    <div class="info-area">
+        <div class="img-pokemon">
+            <img src="perfil.png" id="img-perfil" alt="Imagem do Pokémon" width="300" height="300">
+        </div>
+
+        <div class="txt-perfil">
+            <p><strong>nome:</strong> <span id="txt-name"></span></p>
+            <p><strong>id:</strong> <span id="txt-id"></span></p>
+            <p><strong>tipo:</strong> <span id="txt-tipo"></span></p>
+            <p><strong>cor:</strong> <span id="txt-cor"></span></p>
+        </div>
+    </div>
+
+</div>
+
+
 </body>
 </html>
+
 
