@@ -1,6 +1,5 @@
 # 🃏 Pokemon Card Info
 
-[![Status do Projeto](https://img.shields.io/badge/Status-Concluído-brightgreen)](link_para_deploy_se_houver)
 [![Tecnologias](https://img.shields.io/badge/Tecnologias-HTML%20%7C%20CSS%20%7C%20JavaScript-blue)](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
 [![API](https://img.shields.io/badge/API-PokeAPI-red)](https://pokeapi.co/)
 
